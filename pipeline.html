@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Trustworthy AI Pipeline | Blessing Asare</title>
+    <meta name="description" content="A model is only as credible as every step around it. Six stages decide whether an imaging model can be used by a clinician — select one to see it in practice.">
+    <meta property="og:title" content="The Trustworthy AI Pipeline | Blessing Asare">
+    <meta property="og:description" content="A model is only as credible as every step around it. Six stages decide whether an imaging model can be used by a clinician — select one to see it in practice.">
+    <meta property="og:image" content="https://pasbless1.github.io/portfolio/assets/profile.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <script>try{if(localStorage.getItem('theme')==='light')document.documentElement.setAttribute('data-theme','light')}catch(e){}</script>
+<noscript><style>.reveal{opacity:1!important;transform:none!important}@media(max-width:760px){nav{position:relative;height:auto;min-height:64px;flex-wrap:wrap;padding-block:1rem}.nav-links{display:flex;position:static;flex-wrap:wrap;order:3;padding:.5rem 0;box-shadow:none}.nav-links li,.nav-links a{width:auto}.hamburger,.theme-toggle{display:none}}</style></noscript>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div id="progress-bar"></div>
+<div id="cursor-glow"></div>
+
+<nav id="navbar" aria-label="Primary navigation">
+    <a href="index.html" class="nav-logo">BA.</a>
+    <ul class="nav-links" id="nav-menu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="journey.html">Journey</a></li>
+        <li><a href="contact.html" class="btn btn-grad nav-cta" style="padding:0.45rem 1.1rem;font-size:0.82rem;">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:0.5rem">
+        <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()" aria-label="Toggle light/dark mode"><i class="fas fa-sun" id="theme-icon"></i></button>
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu" aria-controls="nav-menu" aria-expanded="false"><i class="fas fa-bars" id="ham-icon"></i></button>
+    </div>
+</nav>
+
+<main id="main-content">
+<header class="page-hero">
+    <div class="aurora"><div class="aurora-blob"></div><div class="aurora-blob"></div><div class="aurora-blob"></div></div>
+    <div class="hero-grid-bg"></div>
+    <div class="page-hero-inner">
+        <div class="crumbs" role="navigation" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Pipeline</span></div>
+        <span class="section-eyebrow">How I Work</span>
+        <h1 class="page-title">The Trustworthy AI <span class="grad">Pipeline</span></h1>
+        <p class="page-desc">A model is only as credible as every step around it. Six stages decide whether an imaging model can be used by a clinician &mdash; select one to see it in practice.</p>
+    </div>
+</header>
+
+<section id="framework" class="page-body">
+    <div class="container">
+        <div class="pipe-rail reveal" role="tablist" aria-label="Pipeline stages">
+            <button class="pipe-tab" type="button" role="tab" id="ptab-0" aria-controls="pipe-body"><span class="n">01</span><span class="t">Data</span></button>
+            <button class="pipe-tab" type="button" role="tab" id="ptab-1" aria-controls="pipe-body"><span class="n">02</span><span class="t">Preprocessing</span></button>
+            <button class="pipe-tab" type="button" role="tab" id="ptab-2" aria-controls="pipe-body"><span class="n">03</span><span class="t">Architecture</span></button>
+            <button class="pipe-tab" type="button" role="tab" id="ptab-3" aria-controls="pipe-body"><span class="n">04</span><span class="t">Explainability</span></button>
+            <button class="pipe-tab" type="button" role="tab" id="ptab-4" aria-controls="pipe-body"><span class="n">05</span><span class="t">Evidence</span></button>
+            <button class="pipe-tab" type="button" role="tab" id="ptab-5" aria-controls="pipe-body"><span class="n">06</span><span class="t">Deployment</span></button>
+        </div>
+        <div class="pipe-track" aria-hidden="true"><div class="pipe-fill" id="pipe-fill"></div></div>
+        <div class="pipe-stage">
+            <div class="pipe-viz reveal" id="pipe-viz" data-stage="1" aria-hidden="true">
+                <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="fundus" cx="46%" cy="50%" r="55%"><stop offset="0" stop-color="#5b2f8f"/><stop offset=".6" stop-color="#2a1552"/><stop offset="1" stop-color="#0d0720"/></radialGradient>
+            <radialGradient id="disc"><stop offset="0" stop-color="#fdf4ff"/><stop offset=".45" stop-color="#f0abfc"/><stop offset="1" stop-color="#e879f9" stop-opacity="0"/></radialGradient>
+            <radialGradient id="macula"><stop offset="0" stop-color="#03030b" stop-opacity=".7"/><stop offset="1" stop-color="#03030b" stop-opacity="0"/></radialGradient>
+            <radialGradient id="heat"><stop offset="0" stop-color="#fef08a" stop-opacity=".95"/><stop offset=".3" stop-color="#22d3ee" stop-opacity=".75"/><stop offset=".7" stop-color="#8b5cf6" stop-opacity=".35"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+            <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".9" stop-color="#22d3ee" stop-opacity=".35"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".9"/></linearGradient>
+            <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.2" fill="#c4b5fd" fill-opacity=".45"/></pattern>
+            <clipPath id="eye"><circle cx="200" cy="200" r="150"/></clipPath>
+            <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#22d3ee"/></marker>
+          </defs>
+
+          <!-- base fundus -->
+          <circle cx="200" cy="200" r="150" fill="url(#fundus)"/>
+          <g clip-path="url(#eye)" fill="none" stroke-linecap="round">
+            <g stroke="#e879f9" stroke-opacity=".6">
+              <path d="M262 192C232 150 196 128 112 108" stroke-width="3.2"/>
+              <path d="M262 192C226 172 182 166 82 176" stroke-width="2.4"/>
+              <path d="M262 200C230 232 190 250 104 282" stroke-width="3.2"/>
+              <path d="M262 204C246 252 220 292 178 352" stroke-width="2.4"/>
+              <path d="M266 188C286 138 300 104 316 74" stroke-width="2.6"/>
+              <path d="M268 206C292 246 312 282 330 326" stroke-width="2.6"/>
+            </g>
+            <g stroke="#a78bfa" stroke-opacity=".55" stroke-width="1.5">
+              <path d="M186 132C170 150 150 158 126 156"/>
+              <path d="M200 244C180 236 160 236 136 244"/>
+              <path d="M228 270C214 288 198 300 176 306"/>
+              <path d="M152 170C140 186 126 194 104 200"/>
+              <path d="M296 120C320 126 338 140 350 160"/>
+              <path d="M304 270C326 262 342 250 352 232"/>
+              <path d="M236 152C232 124 222 100 204 76"/>
+            </g>
+          </g>
+          <circle cx="170" cy="204" r="34" fill="url(#macula)"/>
+          <circle cx="266" cy="196" r="30" fill="url(#disc)"/>
+          <circle cx="200" cy="200" r="150" fill="none" stroke="#a78bfa" stroke-opacity=".35"/>
+
+          <!-- 1 data: sampled grid + modality chips -->
+          <g class="layer l1">
+            <circle cx="200" cy="200" r="150" fill="url(#dots)"/>
+            <g font-family="Plus Jakarta Sans,sans-serif" font-size="11" font-weight="700" letter-spacing="2">
+              <rect x="22" y="22" width="78" height="26" rx="13" fill="#03030b" fill-opacity=".8" stroke="#e879f9" stroke-opacity=".6"/><text x="61" y="39" fill="#f0abfc" text-anchor="middle">FUNDUS</text>
+              <rect x="108" y="22" width="56" height="26" rx="13" fill="#03030b" fill-opacity=".8" stroke="#22d3ee" stroke-opacity=".6"/><text x="136" y="39" fill="#22d3ee" text-anchor="middle">OCT</text>
+              <rect x="172" y="22" width="68" height="26" rx="13" fill="#03030b" fill-opacity=".8" stroke="#a78bfa" stroke-opacity=".7"/><text x="206" y="39" fill="#c4b5fd" text-anchor="middle">OCTA</text>
+            </g>
+          </g>
+
+          <!-- 2 preprocessing: crop brackets + scan -->
+          <g class="layer l2" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round">
+            <path d="M50 86V50H86M314 50H350V86M350 314V350H314M86 350H50V314"/>
+            <g clip-path="url(#eye)"><rect class="scanbar" x="50" y="20" width="300" height="36" fill="url(#scanG)" stroke="none"/></g>
+          </g>
+
+          <!-- 3 architecture: multi-scale patches -->
+          <g class="layer l3" fill="none" stroke-linejoin="round">
+            <rect x="150" y="184" width="40" height="40" stroke="#22d3ee" stroke-width="2"/>
+            <rect x="120" y="154" width="100" height="100" stroke="#a78bfa" stroke-width="1.8" stroke-dasharray="6 5"/>
+            <rect x="80" y="114" width="180" height="180" stroke="#e879f9" stroke-width="1.5" stroke-dasharray="3 6"/>
+            <g font-family="Plus Jakarta Sans,sans-serif" font-size="11" font-weight="700" letter-spacing="2" stroke="none">
+              <text x="196" y="178" fill="#22d3ee">×1</text><text x="226" y="150" fill="#c4b5fd">×2</text><text x="266" y="110" fill="#f0abfc">×4</text>
+            </g>
+          </g>
+
+          <!-- 4 explainability: Grad-CAM heat -->
+          <g class="layer l4" style="mix-blend-mode:screen">
+            <circle cx="176" cy="206" r="64" fill="url(#heat)"/>
+            <circle cx="238" cy="150" r="38" fill="url(#heat)" opacity=".8"/>
+            <circle cx="140" cy="268" r="34" fill="url(#heat)" opacity=".7"/>
+          </g>
+
+          <!-- 5 evidence: causal DAG -->
+          <g class="layer l5" font-family="Plus Jakarta Sans,sans-serif" font-weight="700">
+            <rect x="34" y="300" width="332" height="78" rx="12" fill="#03030b" fill-opacity=".86" stroke="#a78bfa" stroke-opacity=".4"/>
+            <g fill="none" stroke="#22d3ee" stroke-width="2">
+              <path d="M104 330H170" marker-end="url(#arw)"/>
+              <path d="M230 330H296" marker-end="url(#arw)"/>
+              <path d="M90 316C140 280 260 280 310 316" stroke-dasharray="5 5" stroke="#e879f9" marker-end="url(#arw)"/>
+            </g>
+            <g text-anchor="middle">
+              <circle cx="84" cy="330" r="18" fill="#1b1033" stroke="#e879f9"/><text x="84" y="335" fill="#f0f0f8" font-size="14">X</text>
+              <circle cx="200" cy="330" r="18" fill="#1b1033" stroke="#22d3ee"/><text x="200" y="335" fill="#f0f0f8" font-size="14">M</text>
+              <circle cx="316" cy="330" r="18" fill="#1b1033" stroke="#a78bfa"/><text x="316" y="335" fill="#f0f0f8" font-size="14">Y</text>
+              <g font-size="9.5" letter-spacing="1.6" fill="#a1a1be"><text x="84" y="366">EXPOSURE</text><text x="200" y="366">MEDIATOR</text><text x="316" y="366">SEVERITY</text></g>
+            </g>
+          </g>
+
+          <!-- 6 deployment: review flag + monitoring ring -->
+          <g class="layer l6">
+            <circle class="spin" cx="200" cy="200" r="168" fill="none" stroke="#22d3ee" stroke-opacity=".6" stroke-width="1.5" stroke-dasharray="2 10"/>
+            <rect x="214" y="22" width="164" height="58" rx="10" fill="#03030b" fill-opacity=".88" stroke="#22c55e" stroke-opacity=".5"/>
+            <circle cx="234" cy="51" r="5" fill="#22c55e"/>
+            <g font-family="Plus Jakarta Sans,sans-serif"><text x="248" y="46" fill="#f0f0f8" font-size="12.5" font-weight="700">Refer for review</text><text x="248" y="64" fill="#a1a1be" font-size="10.5" font-weight="600" letter-spacing="1.2">VERSIONED · LOGGED</text></g>
+          </g>
+        </svg>
+                <span class="viz-label" id="viz-label">Multimodal inputs</span>
+            </div>
+            <div class="reveal">
+                <div class="pipe-body" id="pipe-body" role="tabpanel" aria-live="polite" aria-labelledby="ptab-0">
+                    <p class="pipe-count">Stage <b id="st-n">01</b> / 06</p>
+                    <h3 id="st-h">Start with data you can defend.</h3>
+                    <p class="pipe-desc" id="st-d"></p>
+                    <div class="pipe-practice"><small id="st-pk"></small><p id="st-p"></p></div>
+                    <div class="pipe-tools tech-pills" id="st-t"></div>
+                </div>
+                <div class="pipe-nav">
+                    <button class="icon-btn" type="button" id="st-prev" aria-label="Previous stage"><i class="fas fa-arrow-left" aria-hidden="true"></i></button>
+                    <button class="icon-btn" type="button" id="st-next" aria-label="Next stage"><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="next-wrap">
+    <a class="glass next-card reveal" href="research.html">
+        <div><span class="next-label">Next &middot; Research</span><span class="next-title">Publications</span></div>
+        <span class="next-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+    </a>
+</div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <a href="index.html" class="nav-logo">BA.</a>
+            <p>PhD Researcher at TU Dublin, building interpretable AI for medical imaging.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/blessing-asare" target="_blank" class="footer-social-btn" title="LinkedIn" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/PasBless1" target="_blank" class="footer-social-btn" title="GitHub" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/@DatawithPas" target="_blank" class="footer-social-btn" title="YouTube" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.udemy.com/user/pas-bless/" target="_blank" class="footer-social-btn" title="Udemy" rel="noopener noreferrer" aria-label="Udemy"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+        </div>
+        <div>
+            <h4>Pages</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="pipeline.html" aria-current="page">Pipeline</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="journey.html">Journey</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/blessing-asare" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/PasBless1" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.youtube.com/@DatawithPas" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                <li><a href="https://www.udemy.com/user/pas-bless/" target="_blank" rel="noopener noreferrer">Udemy</a></li>
+                <li><a href="mailto:asareblessing8@gmail.com">Email</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>&copy; 2026 <strong style="color:var(--text-soft)">Blessing Asare</strong> &middot; Passau, Germany</span>
+        <a href="mailto:asareblessing8@gmail.com?subject=CV%20request">Request CV &rarr;</a>
+    </div>
+</footer>
+
+<button class="to-top" id="to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 50 50" aria-hidden="true"><circle cx="25" cy="25" r="23"/></svg><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
